@@ -1,0 +1,9 @@
+name: NpcPlugin
+version: '${version}'
+main: dev.npc.NpcPlugin
+api-version: '1.21.11'
+description: Simple NPCs (Mannequin) with skin and click command
+permissions:
+  npc.admin:
+    description: Manage NPCs
+    default: op
